@@ -1,4 +1,4 @@
-Youtube didn't include a keyboard shortcut to go to the live and latest part of a live youtube braodcast.
+Youtube didn't include a keyboard shortcut to go to the latest part of a live youtube braodcast.
 I mainly use this when viewing gaming streams. It works by searching for the aria-label 'skip ahead to live broadcast' which is unique currently.
 
 Currently uses Command+Shift+P for Mac, but you can modify the button in the mainfest.json or go to chrome://extensions/shortcuts after installing.
