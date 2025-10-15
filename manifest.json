@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Live Button Shortcut",
+  "version": "1.0",
+  "description": "Adds a keyboard shortcut to click the 'Live' button on YouTube.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "click-live-button": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Click the 'Live' button on YouTube"
+    }
+  }
+}
